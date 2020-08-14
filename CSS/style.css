@@ -798,7 +798,7 @@ background-color:gainsboro ;
 
 
 .add-comment{
-    display: none;
+    display: grid;
     grid-template-columns: 30px 1fr;
     grid-column-gap: 15px;
     margin: 5px 10px;
@@ -1210,7 +1210,7 @@ display: inline-block;
     }
 
     .add-comment{
-        display: grid;
+        display: none;
     }
 
 }
